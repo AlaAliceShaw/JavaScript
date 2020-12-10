@@ -1,0 +1,10 @@
+
+solution:
+function sumMultN(n,m){
+let sum = o;
+for(let i = n; i <= m; i++){
+if(i % n === 0)
+sum += i;
+}
+return sum;
+}

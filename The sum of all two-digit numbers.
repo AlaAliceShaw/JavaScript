@@ -1,0 +1,15 @@
+Find the sum of all positive two-digit integers.
+Write a function called sumOfTwoDigitsNumbers that returns the sum of numbers between 10 and 99,
+inclusive. Use a do while loop in your solution.
+
+
+solution:
+function sumOfTwoDigitsNumbers(){
+let x = 10;
+ let sum = 0;
+ do {
+  sum += x;
+  x++;
+ } while (x <= 99);
+ return sum;
+ }

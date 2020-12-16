@@ -1,0 +1,19 @@
+question
+A positive integer is given. Determine if the given number contains the digit "2".
+Write a function called doesNumberContain2 that takes a number n as an argument and returns true if the number contains the number 2, and false otherwise. The use of string and array methods is prohibited. Use a do while loop in your solution.
+Examples:
+function doesNumberContain2 (1520) must return true;
+the doesNumberContain2 (114876) function must return false;
+doesNumberContain2 (22222) function must return true.
+
+solution:
+
+function doesNumberContain2(n){
+  let last;
+  do {
+     last = n % 10;
+if (last === 2) return true;
+  n = Math.trunc(n / 10);
+   } while(n > 0);
+ return false;
+ }

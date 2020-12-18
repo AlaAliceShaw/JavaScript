@@ -1,0 +1,21 @@
+question
+Write a function with isNegativeInArray that takes an array arr as a name argument and returns true if the array has at least 
+one negative element and false otherwise. You must use the break statement in your solution.
+Indication. Set some model to false. Loop through the array, and if a negative element is encountered, set this to true and the loop ends.
+Examples:
+the isNegativeInArray ([1, 2, 3, 9, 0]) function must return false;
+the isNegativeInArray ([2, 1, -3, 4, 3]) function must return true;
+the isNegativeInArray ([2, 1, -3, -4, 3]) function must return true.
+
+solution:
+
+function isNegativeInArray(arr){
+ let answer = false;
+  for (let el of arr) {
+    if (el < 0) {
+      answer = true;
+      break;
+    }
+  }
+  return answer;
+}

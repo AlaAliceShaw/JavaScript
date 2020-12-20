@@ -1,0 +1,15 @@
+question
+Write a function named numericTriangle that takes a number n as an argument and returns a triangle of numbers 1 through n,
+separated by a space. All lines except the last one end with a \ n newline character.
+For example, for n = 5, the line should be:
+"1 \ n2 2 \ n3 3 3 \ n4 4 4 4 \ n5 5 5 5 5"
+When outputting to the console, this is displayed as a "triangle" of numbers:
+solution:
+
+ function numericalTriangle(n){
+  let str = '';
+   for(let i = 1; i <= n; i++){
+     str += (i + ' ').repeat(i).slice(0,-1)+'\n';
+    }
+   return str.slice(0,-1);
+  }

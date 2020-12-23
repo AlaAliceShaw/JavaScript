@@ -1,0 +1,9 @@
+question
+Create a variable named str and assign it the value 'apple'.
+
+Create a variable named nan, assign the value of an expression that converts str to a number (using the unary plus operation).
+
+Write your solution here:
+
+let str = 'apple';
+let nan = +str;

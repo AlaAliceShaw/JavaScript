@@ -1,0 +1,5 @@
+From the given set of expressions, select the one whose value is NaN
+
+solution:
+
+ let notANumber = 'Two' * 2;

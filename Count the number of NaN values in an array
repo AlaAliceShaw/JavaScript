@@ -1,0 +1,13 @@
+question
+Write a function countNaN that takes the array arr as an argument and returns the number of elements in the array that are NaN.
+
+solution:
+function countNaN(arr){
+let sum = 0 ;
+for(let i = 0; i < arr.length; i++){
+if (Number.isNaN(arr[i]) === true)
+sum ++;
+ }
+return sum;
+}
+

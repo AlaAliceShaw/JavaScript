@@ -1,0 +1,11 @@
+question
+Write a function multBy5 that takes value as an argument, and if it's NaN, it returns the string "Value is NaN", 
+otherwise it multiplies the value by 5.
+
+solution:
+
+function multBy5(value){
+  if(Number.isNaN(value) === true) return "Value is NaN";
+    else
+  return (value * 5);
+}

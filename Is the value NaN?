@@ -1,0 +1,16 @@
+question
+Write a function isArgNaN that checks if the value argument contains NaN.
+
+If the argument is NaN, return NaN.
+
+Otherwise, return the value of value.
+
+Use the isNaN (value) function in your solution
+
+
+solution:
+function isArgNaN(value){
+  if(isNaN(value) ) return NaN;
+    else 
+  return value;
+}

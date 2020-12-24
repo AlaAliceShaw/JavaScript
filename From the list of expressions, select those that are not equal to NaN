@@ -1,0 +1,7 @@
+question
+From the given set of expressions, select those whose values are not equal to NaN, and create an arr array from these values,
+without changing their order.
+
+solution:
+
+let arr =['July' + 31, 'Three' + 'Two', 'to be'|| !'to be', 'NaN'];

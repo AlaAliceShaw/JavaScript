@@ -1,0 +1,11 @@
+
+question
+Write a function checkingForFinite that takes two numbers a and b as arguments, divides a by b, 
+and checks the division (quotient) by finitude. 
+The function must return true if the result is a finite number, and false otherwise
+
+solution:
+
+function checkingForFinite(a, b){
+return Number.isFinite(a / b)
+}

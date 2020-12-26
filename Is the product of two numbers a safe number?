@@ -1,0 +1,14 @@
+question
+Write a function checkingForfSafe that takes two values a and b as arguments, multiplies a by b, and checks if the product is safe. 
+The function must return true if the product of the numbers is a safe number, 
+and false otherwise.
+
+
+solution:
+
+function checkingForfSafe(a, b){
+  if(Number.isSafeInteger(a*b) === true)
+  return true; 
+  else 
+  return false;
+}

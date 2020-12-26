@@ -1,0 +1,10 @@
+question
+Write a safeNumber function that takes an integer x and returns true if x contains a safe integer value, and false otherwise.
+
+solution:
+
+function safeNumber(x){
+  if(Number.isSafeInteger(x)) return true;
+    else
+  return false;
+}

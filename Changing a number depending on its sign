@@ -1,0 +1,13 @@
+question
+Write a function named changeNumber that takes the number num as an argument and doubles that number if it is positive,
+or reverses the sign of that number if it is negative.
+
+
+solution:
+
+function changeNumber(num){
+  if(num > 0) return num * 2;
+    else if(num < 0) return (-num);
+      else
+      return 0;
+}

@@ -1,0 +1,12 @@
+question
+A number is given. Get the inverse of the given one.
+
+Write a function called oppositeNumber that takes the number num as an argument and returns the opposite number.
+
+solution:
+
+function oppositeNumber(num){
+  if(num === 0) return 0;
+  else 
+  return (-num);
+}

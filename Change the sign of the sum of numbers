@@ -1,0 +1,18 @@
+
+question
+Write a function called oppositeSum that takes three numbers a, b, c as 
+arguments and returns the sum of these numbers with the opposite sign.
+
+Example:
+
+function oppositeSum (1, 2, 3) should return -6;
+function oppositeSum (-1, -2, -3) should return 6;
+
+solution:
+
+function oppositeSum(a, b, c){
+ let sum = a + b + c;
+   if(sum > 0 || sum < 0) return (-sum);
+     else if ( a === 0) return 0;
+  }
+   

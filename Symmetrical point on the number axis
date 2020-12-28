@@ -1,0 +1,12 @@
+question
+Points M and N are equally distant from point O, but located on opposite sides of it, 
+in opposite directions.
+points
+Write a function called oppositePoint that takes the number x (the coordinate of point M) as an argument and 
+returns the coordinate of point N as the string "N (x)".
+
+solution:
+
+function oppositePoint(x){
+     return x === 0 ? `N(${x})` : `N(${-x})`
+}

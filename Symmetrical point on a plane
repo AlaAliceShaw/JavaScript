@@ -1,0 +1,8 @@
+question
+Points M and N are symmetrical about the origin.
+
+solution:
+
+function oppositePoint(x, y){
+return x && y === 0 ? `N(${x} $ {y})` : `N(${-x} ${-y})`;
+}

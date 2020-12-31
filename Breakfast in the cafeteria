@@ -1,0 +1,14 @@
+question
+The 30-storey building has two cafeterias located on floors n and m.
+The cafeteria on floor n is called "Nonstop", the cafeteria on floor m is called "Merci".
+You work on floor x and want to have breakfast at the nearest cafeteria. Which cafe will you go to?
+Write a function named nearestCafe that takes three different numbers x, n, m as arguments
+(x is the floor where you are; n, m are the floors where the cafeterias are located) and returns the name of the nearest cafeteria. 
+If the number of floors to the cafeterias is the same, you prefer to have breakfast in the "Merci" cafe.
+
+solution:
+
+function nearestCafe(x, n, m){
+  if(Math.abs(n-x)< Math.abs(m-x)) return "Nonstop";
+  else return "Merci";
+}
